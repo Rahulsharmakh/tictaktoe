@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    width: 80px;
+    height: 52px;
+    margin: 2px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#k2 {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#k3 {
+    text-align: center;
+}
+
+#p1 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#p2 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    #k2 {
+        text-align: center;
+    }
+    #p1 {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #p2 {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #foter {
+        background-color: black;
+        text-align: center;
+    }
+}
+
+#c1 {
+    align-items: center;
+    text-align: center;
+}
+
+#f1 {
+    font-size: 20px;
+    color: white;
+}
+
+#d1 {
+    text-align: center;
+    font-size: 38px;
+    color: red;
+    text-decoration: underline;
+}
+
+ul li {
+    font-size: 22px;
+    color: brown;
+}
+
+#f2 {
+    font-size: 20px;
+    color: white
+}
+
+#foter {
+    background-color: black;
+    text-align: center;
+}
+
+#rb {
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+#k2 {
+    background-color: green;
+    color: white;
+    height: 50px;
+    margin-top: 0px;
+}
